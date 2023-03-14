@@ -1,0 +1,14 @@
+/* Adjust for print */
+nav, footer {
+    display: none !important;
+  }
+
+  body {
+    font-family: 'Times New Roman', Times, serif !important;
+    color: #000000 !important;
+    margin: 1cm;
+    size: A4 portrait;
+  }
+  a {
+    color: #000000 !important;
+  }

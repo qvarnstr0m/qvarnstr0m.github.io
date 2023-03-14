@@ -1,0 +1,62 @@
+{
+  "contact": {
+    "name": "Martin Qvarnström",
+    "title": ".NET Developer",
+    "email": "mqvarnstrom80@gmail.com",
+    "phone": "+4670-2027161",
+    "web": "qvarnstrom.dev",
+    "github": "github.com/qvarnstr0m"
+  },
+  "work": [
+    {
+      "title": "Truck Driver",
+      "employer": "Per-Åkes Åkeri",
+      "during": "2008-2022",
+      "description": "Responsible for transporting wood products such as lumber, plywood, and other wooden materials from one location to another. Including loading and unloading cargo, performing safety inspections on the truck and its contents, following traffic laws and safety regulations, and ensuring timely delivery of goods. Additionally, also responsible for maintaining and repairing the truck as needed."
+    },
+    {
+      "title": "Planing mill sorter / inspector",
+      "employer": "Stigma Hyvleri",
+      "during": "2005-2008",
+      "description": "Responsible for sorting, grading, and inspecting wood products that had been processed through a planing mill: lumber, paneling, and other wood products. Also responsible for some service and repair."
+    },
+    {
+      "title": "Line Chef",
+      "employer": "Restaurant Hertigen etc.",
+      "during": "2000-2005",
+      "description": "Responsible for preparing and cooking food to order in several restaurant kitchens. Under the supervision of the head chefs, I ensured that dishes were prepared to the highest standards of quality and consistency. I worked collaboratively with other kitchen staff in a team environment to ensure that orders were completed accurately and efficiently."
+    }
+  ],
+  "education": [
+    {
+      "title": "System Development .NET",
+      "during": "2022-2024",
+      "description": "Higher vocational education with focus on the .NET platform. Courses on C#, Object oriented programming, advanced .NET, agile work methods and more."
+    },
+    {
+      "title": "Web Development",
+      "during": "2001-2002",
+      "description": "Vocational education with focus on web development. Including courses on HTML, CSS and JavaScript."
+    }
+  ],
+  "other": [
+    {
+      "title": "Web Admin",
+      "place": "Salong Harvards",
+      "during": "2022-present",
+      "description": "Updating on content and design matters."
+    },
+    {
+      "title": "Board member",
+      "place": "Tröinge Park D BRF",
+      "during": "2019-2021",
+      "description": "Attended board meetings and participated in discussions on matters related to the cooperative's management. Made decisions on behalf of the members of the cooperative, including financial decisions, maintenance and repairs, and other matters that affect the daily operation of the building."
+    },
+    {
+      "title": "Military Service",
+      "place": "Halmstad IB16",
+      "during": "1999-2000",
+      "description": "Responsible for preparing and serving meals to soldiers and other military personnel in various locations and environments."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Martin Qvarnström</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+    <meta
+      name="description"
+      content="Martin Qvarnström, developing .NET, JS, CSS, React and more."
+    />
+    <meta name="keywords" content="developer, .NET, JS, Qvarnström, Martin" />
+    <meta name="author" content="Martin Qvarnström" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="theme-color" content="#FFFFFF" />
+
+    <!-- Import the css -->
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/portfolio.css" />
+
+    <!-- Import the print.css file for print styles -->
+    <link rel="stylesheet" href="/styles/print.css" media="print" />
+
+    <!-- Import Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./cv.html">CV</a>
+        <a href="./activities.html">Activities</a>
+        <a href="javascript:void(0);" class="icon" onclick="navbarFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Main section -->
+    <main>
+      <div>
+        <h1>Hello! 👋🏼<br />I am Martin Qvarnström,</h1>
+      </div>
+      <div class="row">
+        <div class="two-columns order-2">
+          <p>
+            a problem-loving .NET System Development student with a passion for
+          </p>
+          <ul>
+            <li>Learning new tech</li>
+            <li>Developing fun and useful projects</li>
+            <li>Working with dedicated people</li>
+            <li>Agile work methods</li>
+            <li>Clean and concise commenting and commit messages</li>
+          </ul>
+          <p>
+            💥 I am currently looking for an internship in the fall on 2023,
+            <a href="mailto:mqvarnstrom80@gmail.com?subject=Hello!"
+              >contact me</a
+            >
+            to get in touch! 💥
+          </p>
+        </div>
+        <div class="two-columns order-1">
+          <img src="./assets/me.jpg" class="photo-me" alt="Photo of me" />
+        </div>
+      </div>
+    </main>
+
+    <!-- Filler section -->
+    <div class="filler-section"></div>
+    <!-- Footer section -->
+    <footer>
+      <ul class="footer-links">
+        <li>
+          <a href="mailto:mqvarnstrom80@gmail.com?subject=Hello!">Email</a>
+        </li>
+        <li>
+          <a
+            href="https://www.github.com/qvarnstr0m/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Github</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/martin-qvarnstrom-953275248/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Linkedin</a
+          >
+        </li>
+        <li><a href="./wcag.html">WCAG</a></li>
+      </ul>
+    </footer>
+
+    <!-- Import js scripts -->
+    <script src="/js/navbar.js"></script>
+    <script src="/js/leet.js"></script>
+
+    <!-- Easteregg modal popup -->
+    <label for="secret"> </label>
+
+    <input class="modal-state" id="secret" type="checkbox" />
+    <div class="modal">
+      <label class="modal__bg" for="secret"></label>
+      <div class="modal__inner">
+        <label class="modal__close" for="secret"></label>
+        <img src="/assets/hackerman.jpeg" class="hackerman-image" />
+      </div>
+    </div>
+  </body>
+</html>

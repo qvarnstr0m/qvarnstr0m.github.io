@@ -1,0 +1,149 @@
+/* Set values for project containers */
+.project-container {
+    background-repeat: no-repeat;
+    background-position: 15rem 0.5rem;
+    background-size: 5rem;
+    border:1px solid #f2f2f2;
+    border-radius: 0.5rem;
+    width: 19rem;
+    height: 5rem;
+    padding: 0.7rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Set values for text */
+  .project-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  
+  .project-text {
+    max-width: 12.5rem;
+    font-family: Courier, monospace;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+  }
+
+/* Set values for project icons */
+  #react-project {
+    background-image: url("../assets/reactlogo.png");
+    background-position: 15rem 0.5rem;
+  }
+  
+  #kattis-project {
+    background-image: url("../assets/csharplogo.png");
+    background-position: 15rem 0.4rem;
+  }
+  
+  #usingef-project {
+    background-image: url("../assets/eflogo.svg");
+    background-size: 6.5rem;
+    background-position: 13.5rem 1rem;
+  }
+  
+  #discord-project {
+    background-image: url("../assets/discordlogo.svg");
+  }
+  
+  #gittyup-project {
+    background-image: url("../assets/jslogo.png");
+    background-position: 15rem 0rem;
+    background-size: 5.5rem;
+  }
+
+  /* Modal window */
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0,0,0, .9);
+  transition: opacity .25s ease;
+}
+
+.modal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+}
+
+.modal__inner {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 30rem;
+  margin: auto;
+  overflow: auto;
+  background: #242424;
+  border-radius: 5px;
+  padding: 1em 2em;
+  height: 15rem;
+}
+
+.modal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+}
+
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #aaa;
+}
+
+.modal__close:before {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+	
+  .modal__inner {
+    width: 20rem;
+    height: 18rem;
+    box-sizing: border-box;
+  }
+}
